@@ -1,12 +1,12 @@
 import React from 'react';
 import Navigation from './Navigation';
+import Footer from './Footer';
 import '../css/home.css'
 import girlcode from '../images/girlcode.JPG';
 import cssicon from '../images/cssicon.png';
 import htmlicon from '../images/htmlicon.png';
 import javascripticon from '../images/javascripticon.png';
 import pythonicon from '../images/pythonicon.png';
-import { Link } from 'react-router-dom';
 
 
 const Home = () => (
@@ -138,18 +138,7 @@ const Home = () => (
         </div>
       </div>
     </section>
-
-    {/* {footer-section} */}
-    <footer className='footer'>
-      <div className='sub-footer'>
-        <h2 className='footer-title'>Quick access</h2>
-        <div className='quick-links'>
-         <Link to="/About" className='footer-links'>Who we are </Link>
-         <Link to="/About" className='footer-links'>Where we are </Link>
-         <Link to="/project" className='footer-links'>What we do</Link>
-        </div>
-      </div>
-    </footer>
+    <Footer />
     </section>
 </>
 );
