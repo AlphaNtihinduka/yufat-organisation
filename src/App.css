@@ -4,4 +4,10 @@
   box-sizing: border-box;
 }
 
+.welcome {
+  max-width: 786px;
+  background-color: green;
+  font-family: sans-serif;
+}
+
 
