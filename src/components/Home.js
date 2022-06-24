@@ -1,13 +1,16 @@
 import React from 'react';
 import Navigation from './Navigation';
 import '../css/home.css'
-import '../images/yufat3.jpg';
+import girlcode from '../images/girlcode.JPG';
+
 
 const Home = () => (
   <>
     <Navigation />
     <section className='welcome'>
       {/* <h1 className="magic-title">Welcome to our page!</h1> */}
+
+      {/* {Banner-section} */}
       <div className="banner">
        <div className='sub-banner'>
        <h1 className='banner-title'> YOUTH UNITED FOR AFRICAN TRANSFORMATION</h1>
@@ -26,7 +29,16 @@ const Home = () => (
 
       <div className='about-row'>
         <div className='about-container'>
+        {/* {about-card-1} */}
           <div className='about-card'>
+            <h3 className='about-card-heading'>Vision</h3>
+            <p className='about-card-text'>
+                 Equip the community with creative mindset for better Africa. Through web and software development, jobless and poverty can be fought against in Africa.
+            </p>
+          </div>
+
+           {/* {about-card-2} */}
+           <div className='about-card'>
             <h3 className='about-card-heading'>Vision</h3>
             <p className='about-card-text'>
                  Equip the community with creative mindset for better Africa. Through web and software development, jobless and poverty can be fought against in Africa.
@@ -35,6 +47,22 @@ const Home = () => (
         </div>
       </div>
     </div>
+
+    {/* {What we do-section} */}
+    <section className='aim-section'>
+      <div className='aim-row'>
+        <div className='aim-container'>
+          <div className='aim-img-container'>
+            <img src={girlcode} alt="girl code"/>
+          </div>
+
+          <div className='aim-text-container'>
+            <h2 className='aim-text-title'>#CodeWithHer</h2>
+            
+          </div>
+        </div>
+      </div>
+    </section>
     </section>
 </>
 );
