@@ -9,20 +9,25 @@ const Navigation = () => {
   const [isMobile, setIsMobile] = useState(true)
   return (
     <nav className="nav">
-    <div className="right-nav"> <img src={yufatlog} alt="yufat logo" className='yufatlogo'/> </div>
-    <div className="left-nav" >
-      <ul className= {isMobile?'left-nav-links' : "left-desk-nav"}
-      onClick = {() => setIsMobile(false)}
+        <div className='sub-nav'>
+        <div className="right-nav"> <img src={yufatlog} alt="yufat logo" className='yufatlogo'/> </div>
+        <div className="left-nav" >
+          <ul className= {isMobile?'left-nav-links' : "left-desk-nav"}
+          onClick = {() => setIsMobile(false)}
+          >
+          <Link to="/" className='links'>Home </Link>
+          <Link to="/team" className='links'>Team </Link>
+          <Link to="/project" className='links'>Projects</Link>
+          <Link to="/about" className='links'>Contact Us</Link>
+          </ul>
+        </div>
+        </div>
+      <button className='mobile-hamburger'
+      onClick = {()=> setIsMobile(!isMobile)}
       >
-      <Link to="/" className='links'>Home </Link>
-      <Link to="/team" className='links'>Team </Link>
-      <Link to="/project" className='links'>Projects</Link>
-      <Link to="/about" className='links'>Contact Us</Link>
-      </ul>
-    </div>
-    <button className='mobile-hamburger'>
-      {isMobile? <FontAwesomeIcon icon={faBars} size="2x"/>: <FontAwesomeIcon icon={faTimes} size="2x"/>}
-    </button>
+        {isMobile? <FontAwesomeIcon icon={faBars} size="2x"/>: <FontAwesomeIcon icon={faTimes} size="2x"/>}
+      </button>
+ 
   </nav>
   )
 
