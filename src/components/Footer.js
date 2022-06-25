@@ -14,9 +14,8 @@ const Footer = () => (
          <Link to="/project" className='footer-links'>What we do</Link>
         </div>
       </div>
-
-
-      <h2 className='follow-us title-footer'>Follow Us</h2>
+      <div>
+             <h2 className='follow-us title-footer'>Follow Us</h2>
       <div className='social-links'>
       <div>
       <a href="www.youtube.com" className='youtube-icon foot-icon'>
@@ -39,8 +38,9 @@ const Footer = () => (
         </div>
 
       </div>
-
     <p className='footer-email'>ntivuguruzwaphilemon0@gmail.com</p>
+      </div>
+ 
   </div>
 );
 

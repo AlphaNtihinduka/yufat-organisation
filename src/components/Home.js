@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation';
 import Footer from './Footer';
+import Banner from './Banner';
 import Typewriter from 'typewriter-effect'
 import '../css/home.css'
 import girlcode from '../images/girlcode.JPG';
@@ -23,24 +24,7 @@ const Home = () => (
       {/* <h1 className="magic-title">Welcome to our page!</h1> */}
 
       {/* {Banner-section} */}
-      <div className="banner">
-       <div className='sub-banner'>
-       <h1 className='banner-title'> YOUTH UNITED FOR AFRICAN TRANSFORMATION</h1>
-        <p className='banner-para'>Join the Community that believes 
-        <Typewriter options= {{
-            autoStart: true,
-            loop: true,
-            delay: 40,
-            strings: [
-              "Disabity is not inablility",
-              "Digital literacy is improtant in education",
-              "Technology has no gender difference",
-              "Refugees are capable in digital community",
-            ]
-          }} />
-        </p>
-       </div>
-    </div>
+    <Banner />
 
     {/* About-section */}
     <div className='about-section'>

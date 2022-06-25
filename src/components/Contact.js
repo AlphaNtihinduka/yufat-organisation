@@ -1,5 +1,6 @@
 import React from 'react';
 import Navigation from './Navigation';
+import Banner from './Banner';
 import { faEnvelope, faLocation } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faWhatsapp } from '@fortawesome/free-brands-svg-icons';
@@ -11,6 +12,7 @@ import '../css/footer.css'
 const Contact = () => (
   <>
     <Navigation />
+    <Banner />
     <section className="welcome">
         <section className='contact-section'>
           <div className='contact-bar-links'>

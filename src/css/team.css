@@ -20,12 +20,15 @@
     width: 100%;
     padding: 2rem 0;
     border-top-right-radius: 6rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .team-card{
-    max-width: 80%;
-    height: 30rem;
-    margin: 0 auto;
+    width: 20rem;
+    margin-right: 1rem;
+    height: 25rem;
     padding: 1rem;
     box-shadow: 0 0 1rem rgba(0, 0, 0, .5);
     position: relative;
@@ -117,6 +120,16 @@
     text-decoration: none;
     display: block;
 }
+
+@media (min-width: 768px) {
+    /* .team-row {
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    .team-card {
+    } */
+  }
 
 
 

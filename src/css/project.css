@@ -11,6 +11,17 @@
     padding: 2rem 0;
 }
 
+.projects-container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.projects-row {
+    width: 40rem;
+}
+
 .projects-card-heading{
     text-align: center;
     color: #9a381f;
