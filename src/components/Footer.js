@@ -17,7 +17,6 @@ const Footer = () => (
 
 
       <h2 className='follow-us title-footer'>Follow Us</h2>
-      
       <div className='social-links'>
       <div>
       <a href="www.youtube.com" className='youtube-icon foot-icon'>

@@ -1,6 +1,7 @@
 import React from 'react';
 import Navigation from './Navigation';
 import Footer from './Footer';
+import Typewriter from 'typewriter-effect'
 import '../css/home.css'
 import girlcode from '../images/girlcode.JPG';
 import codingKids from '../images/CodingKids.JPG';
@@ -21,7 +22,18 @@ const Home = () => (
       <div className="banner">
        <div className='sub-banner'>
        <h1 className='banner-title'> YOUTH UNITED FOR AFRICAN TRANSFORMATION</h1>
-        <p className='banner-para'>YUFAT makes sure that refugee persons with disability are also equipped with computer skills
+        <p className='banner-para'>Join the Community that believes 
+        <Typewriter options= {{
+            autoStart: true,
+            loop: true,
+            delay: 40,
+            strings: [
+              "Disabity is not inablility",
+              "Digital literacy is improtant in education",
+              "Technology has no gender difference",
+              "Refugees are capable in digital community",
+            ]
+          }} />
         </p>
        </div>
     </div>
