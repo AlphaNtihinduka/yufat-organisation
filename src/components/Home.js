@@ -140,7 +140,8 @@ const Home = () => (
     </section>
 
 
-    <h1 className='aim-title sect-title'>Languages Covered</h1>
+    <h1 className='aim-title sect-title'>Blog and posts</h1>
+    <p className='common-programms'>These common technologies give a refugee a chance to get hired globally.</p>
     {/* {langs-covered} */}
     <section className='lungs-section'>
       <div className='lungs-container'>
@@ -177,74 +178,75 @@ const Home = () => (
       </p>
 
 
-        {/* {exper-card-1} */}
-      <div className='exper-row'>
-        <div className='exper-card'>
-          <div className='exper-img-container'>
-            <img src={microone} alt="microone" />
+          <div className='learning-experience-container'>
+                            {/* {exper-card-1} */}
+              <div className='exper-row'>
+                <div className='exper-card'>
+                  <div className='exper-img-container'>
+                    <img src={microone} alt="microone" />
+                  </div>
+
+                  <div className='exper-card-description'>
+                    <h2 className='exper-card-description-title'>NO UPFRONT COST</h2>
+
+                    <div className='exper-card-text'>
+                    You owe us nothing until you get a job —no matter what country you’re in.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+                {/* {exper-card-2} */}
+                <div className='exper-row'>
+                <div className='exper-card'>
+                  <div className='exper-img-container'>
+                    <img src={microone} alt="microone" />
+                  </div>
+
+                  <div className='exper-card-description'>
+                    <h2 className='exper-card-description-title'>NO UPFRONT COST</h2>
+
+                    <div className='exper-card-text'>
+                    You owe us nothing until you get a job —no matter what country you’re in.
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+          {/* {exper-card-3} */}
+          <div className='exper-row'>
+                <div className='exper-card'>
+                  <div className='exper-img-container'>
+                    <img src={microone} alt="microone" />
+                  </div>
+
+                  <div className='exper-card-description'>
+                    <h2 className='exper-card-description-title'>NO UPFRONT COST</h2>
+
+                    <div className='exper-card-text'>
+                    You owe us nothing until you get a job —no matter what country you’re in.
+                    </div>
+                  </div>
+                </div>
+              </div>
+          
+              {/* {exper-card-4} */}
+              <div className='exper-row'>
+                <div className='exper-card'>
+                  <div className='exper-img-container'>
+                    <img src={microone} alt="microone" />
+                  </div>
+
+                  <div className='exper-card-description'>
+                    <h2 className='exper-card-description-title'>NO UPFRONT COST</h2>
+
+                    <div className='exper-card-text'>
+                    You owe us nothing until you get a job —no matter what country you’re in.
+                    </div>
+                  </div>
+                </div>
+              </div>
           </div>
-
-          <div className='exper-card-description'>
-            <h2 className='exper-card-description-title'>NO UPFRONT COST</h2>
-
-            <div className='exper-card-text'>
-            You owe us nothing until you get a job —no matter what country you’re in.
-            </div>
-          </div>
-        </div>
-      </div>
-
-        {/* {exper-card-2} */}
-      <div className='exper-row'>
-        <div className='exper-card'>
-          <div className='exper-img-container'>
-            <img src={microtwo} alt="" />
-          </div>
-
-          <div className='exper-card-description'>
-            <h2 className='exper-card-description-title'>COLLABORATIVE LEARNING</h2>
-
-            <div className='exper-card-text'>
-            Learn through pair programming, group projects, career coach guidance, and project reviews.
-            </div>
-          </div>
-        </div>
-      </div>
-
-  {/* {exper-card-3} */}
-  <div className='exper-row'>
-        <div className='exper-card'>
-          <div className='exper-img-container'>
-            <img src={microthree} alt="micro three" />
-          </div>
-
-          <div className='exper-card-description'>
-            <h2 className='exper-card-description-title'>GLOBAL OPPORTUNITIES</h2>
-
-            <div className='exper-card-text'>
-            Connect with global jobs after gaining experience working on a remote team.
-            </div>
-          </div>
-        </div>
-      </div>
-  
-      {/* {exper-card-4} */}
-  <div className='exper-row'>
-        <div className='exper-card'>
-          <div className='exper-img-container'>
-            <img src={microfour} alt="microfour" />
-          </div>
-
-          <div className='exper-card-description'>
-            <h2 className='exper-card-description-title'>SUPPORT AND ACCOUNTABILITY</h2>
-
-            <div className='exper-card-text'>
-            Receive support from our dedicated Student Success Team, mentors, a personal career coach, and more.
-            </div>
-          </div>
-        </div>
-      </div>
-
     </section>
 
     <Footer />

@@ -3,7 +3,7 @@
 }
 
 .welcome {
-  max-width: 786px;
+  /* max-width: 786px; */
   /* background-color: green; */
 }
 
@@ -13,7 +13,7 @@
   background-color: orange;
   display: flex;
   align-items: center;
-  border-bottom: .5rem solid #9a381f;
+  border-bottom: .3rem solid #9a381f;
   position: relative;
   padding-right: 2rem;
 }
@@ -50,7 +50,9 @@
 }
 
 .sub-banner{
-  background-color: blue;
+  background-image: url(../images/CodingKids.JPG);
+  background-size: cover;
+  background-position: top;
   max-width: 100%;
   height: 100vh;
   display: flex;
@@ -104,11 +106,11 @@
   border-radius: .5rem;
   text-align: center;
   margin-bottom: 3rem;
-  box-shadow:  1.5rem 1.5rem 1.5rem rgba(0, 0, 0, .5);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, .7);
 }
 
 .about-card:hover{
-  box-shadow: 0 0 1rem rgba(0, 0, 0, .7);
+  box-shadow:  1.5rem 1.5rem 1.5rem rgba(0, 0, 0, .5);
   transition: .5s all;
 }
 
@@ -152,7 +154,7 @@
 }
 
 .aim-img-container:hover{
-  transform: scale(1.1);
+  transform: scale(1.03);
   transition: .5s all;
 }
 
@@ -161,7 +163,7 @@
   height: 100%;
   object-fit: cover;
    border-radius: 1rem;
-  border: .5rem solid #9a381f;
+  border: .3rem solid #9a381f;
 }
 
 .aim-text-container{
@@ -198,7 +200,9 @@
 
 
 .lungs-container{
-  background-color: #9a381f;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #777;
   padding: 3rem; 
    border-top-right-radius: 6rem;
   margin-bottom: 6rem;
@@ -206,8 +210,8 @@
 
 
 .lungs-card-image{
-  width: 15rem;
-  height: 15rem;
+  width: 9rem;
+  height: 9rem;
   border-radius: 50%;
   background-color: rgba(0, 0, 0, .7);
   position: relative;
@@ -246,22 +250,21 @@
 }
 
 .exper-card{
-  max-width: 90%;
-  height: 30rem;
+  max-width: 80%;
+  height: 15rem;
   box-shadow: 1rem 1rem 2rem rgba(0, 0, 0, .5);
-  margin: 0 auto;
+  margin: 1rem auto;
 }
 
 .exper-img-container{
   height: 100%;
   border-radius: .2rem;
   border-radius: .5rem;
-  max-width: 100%;
-  overflow: hidden;
+  width: 100%;
 }
 
 .exper-img-container img{
-  max-width: 100%;
+  width: 100%;
   height: 100%;
   object-fit: cover;
 }
@@ -282,8 +285,100 @@
   color: #777;
   font-size: 1.2rem;
   margin-top: 1rem;
-
 }
+
+@media (min-width: 768px) {
+  .nav {
+    background-color: rgba(0, 0, 0, .8);
+    padding-right: 1rem;
+    width: 100%;
+    z-index: 22;
+    position: fixed;
+  }
+  .mobile-hamburger {
+    display: none;
+  }
+
+  .left-nav-links {
+    display: flex;
+  }
+
+  .sub-nav {
+      position: relative;
+
+    }
+
+  .left-nav {
+    width: 100%;
+    }
+
+  .left-nav ul{
+    background-color: transparent;
+    display: block;
+    position: absolute;
+    top: 3rem;
+    right: 5%;
+    font-size: 1.5rem;
+  }
+
+  .left-nav .links {
+    margin-right: 2rem;
+    color: #fff;
+  }
+
+  .about-container {
+    background-color: transparent;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .about-card {
+    background-color: #fff;
+    color: green;
+    width: 48%;
+  }
+
+  .about-card-heading {
+    color: #777;
+  }
+
+  .about-card-text {
+    color: black;
+    font-size: 1.4rem;
+  }
+
+  .aim-container{
+    background-color: transparent;
+    display: flex;
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .aim-img-container {
+    width: 40%;
+  }
+
+  .aim-text-container {
+    width: 58%;
+  }
+
+  .learning-experience-container{
+    /* background-color: #9a381f; */
+    padding-bottom: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .exper-row {
+    width: 50%;
+  }
+
+  .exper-card{
+    max-width: 70%;
+  }
+  
+ }
 
 
 
