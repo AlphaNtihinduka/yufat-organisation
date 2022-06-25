@@ -1,14 +1,151 @@
 import React from 'react';
 import Navigation from './Navigation';
+import lrtn from '../images/lrtn.jpg';
+import '../css/team.css';
+import Footer from './Footer';
+import { Link } from 'react-router-dom';
+import '../css/footer.css'
 
 const Team = () => (
   <>
     <Navigation />
     <section className="welcome">
-      <h1 className="magic-title">Welcome to our Team!</h1>
-      <p className="welcome-message"> Magical Mathematics [is] a dazzling tour of math-based magic tricks. . . . Lovers of recreational mathematics, and especially fans of the late Martin Gardner, who contributed the foreword, will find many pleasures in Magical Mathematics  </p>
-      <p className="welcome-message"> Maths and magic have been partners for a long time. Back in the days of Pythagoras, numbers were connected more with mysticism than with conjuring, but discoveries like the 3, 4, 5 triangle were enough to make people believe that some numbers must have magical powers.  </p>
+      <section className='team-section'>
+        <h1 className='team-title'>Executive Team</h1>
+        <div className='team-container'>
+          <div className='team-row'>
+
+            {/* {team-card-1} */}
+            <div className='team-card'>
+              <div className='team-img-container'>
+                <img src={lrtn} alt="" />
+              </div>
+
+              <div className='team-card-descr'>
+                <h3 className='team-card-title'>NTIHINDUKA Alpha</h3>
+                <p className='team-card-text'>Founder&CEO</p>
+              </div>
+
+              <div className='team-card-footer'></div>
+            </div>
+
+             {/* {team-card-2} */}
+             <div className='team-card'>
+              <div className='team-img-container'>
+                <img src={lrtn} alt="" />
+              </div>
+
+              <div className='team-card-descr'>
+                <h3 className='team-card-title'>NTIHINDUKA Alpha</h3>
+                <p className='team-card-text'>Founder&CEO</p>
+              </div>
+
+              <div className='team-card-footer'></div>
+            </div>
+
+
+             {/* {team-card-3} */}
+             <div className='team-card'>
+              <div className='team-img-container'>
+                <img src={lrtn} alt="" />
+              </div>
+
+              <div className='team-card-descr'>
+                <h3 className='team-card-title'>NTIHINDUKA Alpha</h3>
+                <p className='team-card-text'>Founder&CEO</p>
+              </div>
+
+              <div className='team-card-footer'></div>
+            </div>
+
+             {/* {team-card-4} */}
+             <div className='team-card'>
+              <div className='team-img-container'>
+                <img src={lrtn} alt="" />
+              </div>
+
+              <div className='team-card-descr'>
+                <h3 className='team-card-title'>NTIHINDUKA Alpha</h3>
+                <p className='team-card-text'>Founder&CEO</p>
+              </div>
+
+              <div className='team-card-footer'></div>
+            </div>
+          </div>
+        </div>
+
+
+        <h1 className='team-title'>Volunteer Team</h1>
+        <div className='team-container'>
+          <div className='team-row'>
+
+            {/* {team-card-1} */}
+            <div className='team-card'>
+              <div className='team-img-container'>
+                <img src={lrtn} alt="" />
+              </div>
+
+              <div className='team-card-descr'>
+                <h3 className='team-card-title'>NTIHINDUKA Alpha</h3>
+                <p className='team-card-text'>Founder&CEO</p>
+              </div>
+
+              <div className='team-card-footer'></div>
+            </div>
+
+             {/* {team-card-2} */}
+             <div className='team-card'>
+              <div className='team-img-container'>
+                <img src={lrtn} alt="" />
+              </div>
+
+              <div className='team-card-descr'>
+                <h3 className='team-card-title'>NTIHINDUKA Alpha</h3>
+                <p className='team-card-text'>Founder&CEO</p>
+              </div>
+
+              <div className='team-card-footer'></div>
+            </div>
+
+
+             {/* {team-card-3} */}
+             <div className='team-card'>
+              <div className='team-img-container'>
+                <img src={lrtn} alt="" />
+              </div>
+
+              <div className='team-card-descr'>
+                <h3 className='team-card-title'>NTIHINDUKA Alpha</h3>
+                <p className='team-card-text'>Founder&CEO</p>
+              </div>
+
+              <div className='team-card-footer'></div>
+            </div>
+
+             {/* {team-card-4} */}
+             <div className='team-card'>
+              <div className='team-img-container'>
+                <img src={lrtn} alt="" />
+              </div>
+
+              <div className='team-card-descr'>
+                <h3 className='team-card-title'>NTIHINDUKA Alpha</h3>
+                <p className='team-card-text'>Founder&CEO</p>
+              </div>
+
+              <div className='team-card-footer'></div>
+            </div>
+          </div>
+        </div>
+
+       
+        <div className='volunteer-button'>
+           <Link to="/About" className='volunteer-btn'>Volunteer With Us</Link>
+          </div> 
+      </section>
     </section>
+
+    <Footer />
   </>
 );
 

@@ -41,6 +41,7 @@ const Footer = () => (
 
       </div>
 
+    <p className='footer-email'>ntivuguruzwaphilemon0@gmail.com</p>
   </div>
 );
 

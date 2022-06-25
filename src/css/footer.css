@@ -1,6 +1,11 @@
 
 /* ------------------footer------------------ */
 
+.footer{
+  background-color: #222;
+  padding: 1rem;
+}
+
 .title-footer{
     color: #9a381f;
     text-align: center;
@@ -40,7 +45,12 @@
     margin-bottom: 2rem;
 }
 
-
+.footer-email{
+  font-size: 1.2rem;
+  color: #fff;
+  text-align: center;
+  margin-top: 2rem;
+}
 
 
 

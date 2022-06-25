@@ -1,14 +1,114 @@
 import React from 'react';
 import Navigation from './Navigation';
+import girlcode from '../images/girlcode.JPG';
+import '../css/project.css';
+import Footer from './Footer';
+import '../css/footer.css';
 
 const Project = () => (
   <>
     <Navigation />
     <section className="welcome">
-      <h1 className="magic-title">Welcome Projects!</h1>
-      <p className="welcome-message"> Magical Mathematics [is] a dazzling tour of math-based magic tricks. . . . Lovers of recreational mathematics, and especially fans of the late Martin Gardner, who contributed the foreword, will find many pleasures in Magical Mathematics  </p>
-      <p className="welcome-message"> Maths and magic have been partners for a long time. Back in the days of Pythagoras, numbers were connected more with mysticism than with conjuring, but discoveries like the 3, 4, 5 triangle were enough to make people believe that some numbers must have magical powers.  </p>
+      <h1 className="projects-title">Our Projects</h1>
+      <section className='project-section'>
+        <div className='projects-container'>
+          <div className='projects-row'>
+
+            {/* {projects-card-1} */}
+          <h2 className='projects-card-heading'>CodeWithHer</h2>
+          
+            <div className='projects-card'>
+              <div className='projects-img-container'>
+                 <img src={girlcode} alt="" />
+              </div>
+
+              <div className='projects-sub-card'>
+                <div className='projects-sub-card-title'>See More</div>
+
+                <div className='projects-sub-card-text-container'>
+                  <p className='projects-sub-card-text'>
+                     Learning how to code gives young
+                       refugee woman a chance for a brighter 
+                      future.YUFAT believes coding can help the girls can be 
+                       indipendent, earn and have a vision for their future.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+
+              {/* {projects-card-2} */}
+          <h2 className='projects-card-heading'>CodeWithHer</h2>
+          
+          <div className='projects-card'>
+            <div className='projects-img-container'>
+               <img src={girlcode} alt="" />
+            </div>
+
+            <div className='projects-sub-card'>
+              <div className='projects-sub-card-title'>See More</div>
+
+              <div className='projects-sub-card-text-container'>
+                <p className='projects-sub-card-text'>
+                   Learning how to code gives young
+                     refugee woman a chance for a brighter 
+                    future.YUFAT believes coding can help the girls can be 
+                     indipendent, earn and have a vision for their future.
+                </p>
+              </div>
+            </div>
+          </div>
+
+            {/* {projects-card-3} */}
+            <h2 className='projects-card-heading'>CodeWithHer</h2>
+          
+          <div className='projects-card'>
+            <div className='projects-img-container'>
+               <img src={girlcode} alt="" />
+            </div>
+
+            <div className='projects-sub-card'>
+              <div className='projects-sub-card-title'>See More</div>
+
+              <div className='projects-sub-card-text-container'>
+                <p className='projects-sub-card-text'>
+                   Learning how to code gives young
+                     refugee woman a chance for a brighter 
+                    future.YUFAT believes coding can help the girls can be 
+                     indipendent, earn and have a vision for their future.
+                </p>
+              </div>
+            </div>
+          </div>
+
+
+            {/* {projects-card-4} */}
+            <h2 className='projects-card-heading'>CodeWithHer</h2>
+          
+          <div className='projects-card'>
+            <div className='projects-img-container'>
+               <img src={girlcode} alt="" />
+            </div>
+
+            <div className='projects-sub-card'>
+              <div className='projects-sub-card-title'>See More</div>
+
+              <div className='projects-sub-card-text-container'>
+                <p className='projects-sub-card-text'>
+                   Learning how to code gives young
+                     refugee woman a chance for a brighter 
+                    future.YUFAT believes coding can help the girls can be 
+                     indipendent, earn and have a vision for their future.
+                </p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
+      </section>
     </section>
+
+    <Footer />
   </>
 );
 
