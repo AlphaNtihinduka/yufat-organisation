@@ -2,6 +2,11 @@ import React from 'react';
 import Navigation from './Navigation';
 import '../css/home.css'
 import girlcode from '../images/girlcode.JPG';
+import cssicon from '../images/cssicon.png';
+import htmlicon from '../images/htmlicon.png';
+import javascripticon from '../images/javascripticon.png';
+import pythonicon from '../images/pythonicon.png';
+import { Link } from 'react-router-dom';
 
 
 const Home = () => (
@@ -51,6 +56,8 @@ const Home = () => (
     {/* {What we do-section} */}
     <section className='aim-section'>
       <div className='aim-row'>
+
+        {/* [aim-container-1] */}
         <div className='aim-container'>
           <div className='aim-img-container'>
             <img src={girlcode} alt="girl code"/>
@@ -58,11 +65,91 @@ const Home = () => (
 
           <div className='aim-text-container'>
             <h2 className='aim-text-title'>#CodeWithHer</h2>
-            
+              <p className='aim-text-paragraph'>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+               ipsLorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+             ipLorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+             dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+              </p>
+          </div>
+        </div>
+
+
+         {/* [aim-container-2] */}
+         <div className='aim-container'>
+          <div className='aim-img-container'>
+            <img src={girlcode} alt="girl code"/>
+          </div>
+
+          <div className='aim-text-container'>
+            <h2 className='aim-text-title'>#CodeWithHer</h2>
+              <p className='aim-text-paragraph'>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+               ipsLorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+             ipLorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+             dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+              </p>
+          </div>
+        </div>
+
+         {/* [aim-container-3] */}
+         <div className='aim-container'>
+          <div className='aim-img-container'>
+            <img src={girlcode} alt="girl code"/>
+          </div>
+
+          <div className='aim-text-container'>
+            <h2 className='aim-text-title'>#CodeWithHer</h2>
+              <p className='aim-text-paragraph'>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+               ipsLorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+             ipLorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+             dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+              </p>
           </div>
         </div>
       </div>
     </section>
+
+    {/* {langs-covered} */}
+    <section className='lungs-section'>
+      <div className='lungs-container'>
+       {/* {lung-card-1} */}
+        <div className='lungs-card-image'>
+        <img src={cssicon} alt="css icon" />
+        </div>
+
+       {/* {lung-card-2} */}
+        <div className='lungs-card-image'>
+        <img src={htmlicon} alt="html icon" />
+        </div>
+
+       {/* {lung-card-3} */}
+        <div className='lungs-card-image'>
+        <img src={javascripticon} alt="javascript icon" />
+        </div>
+
+       {/* {lung-card-4} */}
+        <div className='lungs-card-image'>
+        <img src={pythonicon} alt="python icon" />
+        </div>
+      </div>
+    </section>
+
+    {/* {footer-section} */}
+    <footer className='footer'>
+      <div className='sub-footer'>
+        <h2 className='footer-title'>Quick access</h2>
+        <div className='quick-links'>
+         <Link to="/About" className='footer-links'>Who we are </Link>
+         <Link to="/About" className='footer-links'>Where we are </Link>
+         <Link to="/project" className='footer-links'>What we do</Link>
+        </div>
+      </div>
+    </footer>
     </section>
 </>
 );
