@@ -6,6 +6,10 @@ import girlcode from '../images/girlcode.JPG';
 import codingKids from '../images/CodingKids.JPG';
 import coding1 from '../images/coding1.jpg';
 import cssicon from '../images/cssicon.png';
+import microone from '../images/microone.png';
+import microtwo from '../images/microtwo.png'
+import microthree from '../images/microthree.png';
+import microfour from '../images/microfour.jpg';
 import htmlicon from '../images/htmlicon.png';
 import javascripticon from '../images/javascripticon.png';
 import pythonicon from '../images/pythonicon.png';
@@ -61,6 +65,7 @@ const Home = () => (
     <section className='aim-section'>
       <div className='aim-row'>
 
+      <h1 className='aim-title sect-title'>What We do</h1>
         {/* [aim-container-1] */}
         <div className='aim-container'>
           <div className='aim-img-container'>
@@ -122,6 +127,8 @@ const Home = () => (
       </div>
     </section>
 
+
+    <h1 className='aim-title sect-title'>Languages Covered</h1>
     {/* {langs-covered} */}
     <section className='lungs-section'>
       <div className='lungs-container'>
@@ -146,6 +153,88 @@ const Home = () => (
         </div>
       </div>
     </section>
+
+    <section className='exper-section'>
+      <div className='exper-title'>A New Learning Experience</div>
+
+      <p className='exper-text'>
+      Microverse invests in you. Our team
+       supports you throughout your journey with us, and your career. 
+      New cohorts start every 5 weeks, 
+      learn more about our next start dates and applying
+      </p>
+
+
+        {/* {exper-card-1} */}
+      <div className='exper-row'>
+        <div className='exper-card'>
+          <div className='exper-img-container'>
+            <img src={microone} alt="microone" />
+          </div>
+
+          <div className='exper-card-description'>
+            <h2 className='exper-card-description-title'>NO UPFRONT COST</h2>
+
+            <div className='exper-card-text'>
+            You owe us nothing until you get a job —no matter what country you’re in.
+            </div>
+          </div>
+        </div>
+      </div>
+
+        {/* {exper-card-2} */}
+      <div className='exper-row'>
+        <div className='exper-card'>
+          <div className='exper-img-container'>
+            <img src={microtwo} alt="" />
+          </div>
+
+          <div className='exper-card-description'>
+            <h2 className='exper-card-description-title'>COLLABORATIVE LEARNING</h2>
+
+            <div className='exper-card-text'>
+            Learn through pair programming, group projects, career coach guidance, and project reviews.
+            </div>
+          </div>
+        </div>
+      </div>
+
+  {/* {exper-card-3} */}
+  <div className='exper-row'>
+        <div className='exper-card'>
+          <div className='exper-img-container'>
+            <img src={microthree} alt="micro three" />
+          </div>
+
+          <div className='exper-card-description'>
+            <h2 className='exper-card-description-title'>GLOBAL OPPORTUNITIES</h2>
+
+            <div className='exper-card-text'>
+            Connect with global jobs after gaining experience working on a remote team.
+            </div>
+          </div>
+        </div>
+      </div>
+  
+      {/* {exper-card-4} */}
+  <div className='exper-row'>
+        <div className='exper-card'>
+          <div className='exper-img-container'>
+            <img src={microfour} alt="microfour" />
+          </div>
+
+          <div className='exper-card-description'>
+            <h2 className='exper-card-description-title'>SUPPORT AND ACCOUNTABILITY</h2>
+
+            <div className='exper-card-text'>
+            Receive support from our dedicated Student Success Team, mentors, a personal career coach, and more.
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </section>
+
     <Footer />
     </section>
 </>
