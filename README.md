@@ -1,6 +1,6 @@
 # YUFAT ORGANISATION
 
-YUFAT organisation is a charity organisation that supports refugees
+YUFAT organisation is a charity organisation that supports refugees.
 
 ## Built With
 
