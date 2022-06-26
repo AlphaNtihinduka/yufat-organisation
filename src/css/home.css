@@ -88,6 +88,8 @@
 .about-container{
   background-color: #9a381f;
   padding: 3rem;
+  border-top-left-radius: 6rem;
+  margin-bottom: 6rem;
 }
 
 .about-card{
@@ -119,8 +121,8 @@
 }
 
 .aim-section{
-  /* background-color: crimson; */
   min-height: 100vh;
+  margin-bottom: 5rem;
 }
 
 .aim-container{
@@ -149,13 +151,13 @@
 }
 
 .aim-text-container{
-  background-color: darkblue;
   max-width: 80%;
   text-align: center;
   margin: 3rem auto;
   border-radius: .5rem;
-  border: .3rem solid #000;
+  border: .3rem solid #fff;
   padding: 2rem;
+  background-color: #9a381f;
 }
 
 .aim-text-title{
@@ -182,8 +184,10 @@
 
 
 .lungs-container{
-  background-color: purple;
-  padding: 3rem;
+  background-color: #9a381f;
+  padding: 3rem; 
+   border-top-right-radius: 6rem;
+  margin-bottom: 6rem;
 }
 
 

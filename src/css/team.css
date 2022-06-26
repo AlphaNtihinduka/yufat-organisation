@@ -17,9 +17,9 @@
 }
 
 .team-row{
-    background-color: aqua;
     width: 100%;
     padding: 2rem 0;
+    border-top-right-radius: 6rem;
 }
 
 .team-card{

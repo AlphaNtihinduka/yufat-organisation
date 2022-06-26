@@ -3,6 +3,8 @@ import Navigation from './Navigation';
 import Footer from './Footer';
 import '../css/home.css'
 import girlcode from '../images/girlcode.JPG';
+import codingKids from '../images/CodingKids.JPG';
+import coding1 from '../images/coding1.jpg';
 import cssicon from '../images/cssicon.png';
 import htmlicon from '../images/htmlicon.png';
 import javascripticon from '../images/javascripticon.png';
@@ -44,9 +46,11 @@ const Home = () => (
 
            {/* {about-card-2} */}
            <div className='about-card'>
-            <h3 className='about-card-heading'>Vision</h3>
+            <h3 className='about-card-heading'>Mission</h3>
             <p className='about-card-text'>
-                 Equip the community with creative mindset for better Africa. Through web and software development, jobless and poverty can be fought against in Africa.
+            To groom the 
+            transformed young African generation
+             by the new technology towards development
             </p>
           </div>
         </div>
@@ -66,11 +70,12 @@ const Home = () => (
           <div className='aim-text-container'>
             <h2 className='aim-text-title'>#CodeWithHer</h2>
               <p className='aim-text-paragraph'>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
-               ipsLorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
-             ipLorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
-             dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+              Learning how to code gives young refugee woman a chance
+               for a brighter future. Many girls are forced into marriage in refugee
+                settlement by parents, relatives or situation. Digital skills will help her get variety
+                 of employment opportunities. Through CodeWithHer club, 
+              YUFAT believes coding can help the girls can be 
+              indipendent, earn and have a vision for their future.
               </p>
           </div>
         </div>
@@ -79,17 +84,20 @@ const Home = () => (
          {/* [aim-container-2] */}
          <div className='aim-container'>
           <div className='aim-img-container'>
-            <img src={girlcode} alt="girl code"/>
+            <img src={codingKids} alt="coding Kids" />
           </div>
 
           <div className='aim-text-container'>
-            <h2 className='aim-text-title'>#CodeWithHer</h2>
+            <h2 className='aim-text-title'>#Revolutionize Education</h2>
               <p className='aim-text-paragraph'>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
-               ipsLorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
-             ipLorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
-             dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+              Children in Kyaka II refugee settlement faced learning
+               crisis due to lack of digital skills among children and teachers. 
+               This brings us to thtink about the new system of learning, reimagining 
+               education. Depending on research, many teachers and students don't have knowledge in 
+               using digital devices and this made online learning hard to be conducted. YUFAT will
+                partner with schools to end this challenge 
+              through ICT training. YUFAT is preparing to offer
+               mobile ICT learning by finding students at their respective schools.
               </p>
           </div>
         </div>
@@ -97,17 +105,17 @@ const Home = () => (
          {/* [aim-container-3] */}
          <div className='aim-container'>
           <div className='aim-img-container'>
-            <img src={girlcode} alt="girl code"/>
+            <img src={coding1} alt="coding1"/>
           </div>
 
           <div className='aim-text-container'>
-            <h2 className='aim-text-title'>#CodeWithHer</h2>
+            <h2 className='aim-text-title'>#Introduction to ICT</h2>
               <p className='aim-text-paragraph'>
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
-              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
-               ipsLorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
-             ipLorem ipsum dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
-             dolor, sit amet consectetur adipisicing elit. Ratione ipsa consectetur perferendis similique! Lorem ipsum dolor sit
+              The continous changing of technology forces
+               every individual to be equipped with technology skills.
+                This is the reality that can never be avoided now. Every member 
+              of the community needs the introduction to 
+              ICT skills. YUFAT equips ICT skills to community youth and children.
               </p>
           </div>
         </div>
